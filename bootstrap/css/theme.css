@@ -280,7 +280,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #1b85b8;
+  color: darkslategray; /*#1b85b8*/
   text-decoration: none;
 }
 a:hover,

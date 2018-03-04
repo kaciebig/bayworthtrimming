@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6
 {
     margin-bottom: 1.1em;
     margin-top: 1.8em;
+    color: black; /*#0362a9*/
+    font-family: "serif";
 }
 
 .features,
@@ -54,12 +56,14 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {   
-    /*background-color: goldenrod;*/
-    background-image: url('/assets/img/3O6A3980.jpg');
+    background-color: goldenrod;
+    padding-top: 0px;
+    height: 0vh;
+    /*background-image: url('/assets/img/3O6A3980.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
-    padding-top: 36px;
+    padding-top: 36px;*/
 }
 
 @media (max-width: 600px) {
@@ -163,12 +167,12 @@ header .container-fluid
 
 .gallery
 {
-    background-color: #c3cb71;
+    background-color: #dfe213d5;
 }
 
 .not-gallery
 {
-    background-color: goldenrod;
+    background-color: #dfe213d5;
 }
 
 .prefooter .container-fluid
@@ -198,7 +202,7 @@ header .container-fluid
 
 footer
 {
-    background-color: #559e83;
+    background-color: #7bc5d8;
     padding-top: 2em;
     padding-bottom: 1.2em;
 }
@@ -211,10 +215,15 @@ footer h5,
 footer h6,
 footer p
 {
-    color: #FFFFFF;
+    color: navy;
 }
 
 .social
 {
     padding-top: 50px;
+}
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
 }
