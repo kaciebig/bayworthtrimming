@@ -56,9 +56,9 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {   
-    background-color: goldenrod;
+    background-color: #dfe213d5;
     padding-top: 0px;
-    height: 0vh;
+    height: 5vh;
     /*background-image: url('/assets/img/3O6A3980.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ header .container-fluid
 
 @media (max-width: 600px) {
   header .container-fluid {
-    height: 35vh;
+    height: 5vh;
   }
 }
 
